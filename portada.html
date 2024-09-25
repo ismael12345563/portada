@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina Portada</title>
+    <style>
+        body {
+            background-color: #000; /* Cambiamos el color de fondo a negro */
+            background-image: none; /* Desactivamos la imagen de fondo */
+            text-align: center; /* Centramos los textos */
+            color: #fff; /* Cambiamos el color del texto a blanco */
+            height: 100vh; /* Establecemos la altura del cuerpo a la altura de la ventana */
+            margin: 0; /* Eliminamos el margen */
+            padding: 0; /* Eliminamos el relleno */
+        }
+        
+        h1, h2 {
+            color: #ff0; /* Cambiamos el color del título y subtítulo a amarillo */
+        }
+        
+        strong {
+            color: #0f0; /* Cambiamos el color del texto en negrita a verde */
+        }
+        
+        .footer {
+            position: absolute; /* Posicionamos el contenedor en la parte inferior */
+            bottom: 0; /* Establecemos la posición en la parte inferior */
+            width: 100%; /* Establecemos el ancho a la anchura de la ventana */
+            text-align: center; /* Centramos el texto */
+            display: flex; /* Utilizamos flexbox para posicionar las imágenes */
+            justify-content: space-between; /* Espaciamos las imágenes de manera uniforme */
+            flex-direction: column; /* Establecemos la dirección de los elementos en columna */
+        }
+        
+        .footer img {
+            width: 150px; /* Establecemos el ancho de la imagen */
+            height: 150px; /* Establecemos el alto de la imagen */
+            margin: auto; /* Centramos la imagen */
+            display: block; /* Establecemos el display en block para que se pueda centrar */
+        }
+        
+        .image-left {
+            float: left; /* Posicionamos la imagen a la izquierda */
+            margin-right: 20px; /* Agregamos un margen a la derecha */
+        }
+        
+        .image-right {
+            float: right; /* Posicionamos la imagen a la derecha */
+            margin-left: 20px; /* Agregamos un margen a la izquierda */
+        }
+        
+        p {
+            font-size: 28px; /* Aumenta el tamaño de la fuente del texto */
+        }
+        
+        .footer p {
+            font-size: 24px; /* Ajusta el tamaño de la fuente del texto en el pie de página */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>INSTITUTO TECNOLOGICO DE CIUDAD VALLES</h1>
+    <hr>
+    <h2>CARRERA: INGENIERIA EN SISTEMAS COMPUTACIONALES</h2>
+    <a href="https://www.example.com" target="_blank">
+        <img src="portada negra.png" width="100" height="100">
+    </a>
+    <p><strong>Nombre(s) Del Alumno</strong></p>
+    <p> Ismael palacios garcia</p>
+    <p><strong>DOCENTE:</strong></p>
+    <p>Abundis Espinosa Victor Manuel</p>
+    
+    <img class="image-left" src="halo.jfif" width="400" height="200">
+    <img class="image-right" src="linux.jfif" width="300" height="150">
+    
+    <div class="footer" style="margin-top: 50px;">
+        <a href="https://es.wikipedia.org/wiki/Faker" target="_blank">
+            <img src="kali.png" width="130" height="130">
+        </a>
+    </div>
+
+</body>
+</html>

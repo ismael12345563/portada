@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <center>
+<TITLE>Uso de tablas</TITLE>
+<style>
+  body {
+    background-color: #000000; /* FONDO DE LA PAGINA */
+  }
+  table {
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    width: 100%;
+    background-color: #000000; /* FONDO DE LA TABLA */
+  }
+  table td, table th {
+    color: #FFD700; /* Color brillante */
+  }
+  h1 {
+    text-transform: uppercase; /* Mayúscula */
+    color: #00698f; /* Color azul llamativo */
+    font-size: 40px; /* Tamaño de fuente */
+    font-family: Arial, sans-serif; /* Fuente */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 2px 4px #000000; /* Sombra de texto */
+  }
+  th, td {
+    text-align: center; /* Centrar texto */
+    list-style: disc; /* Estilo de lista */
+    padding: 10px; /* Espacio entre celdas */
+  }
+  /* Add styles for the new green table */
+  .green-table {
+    border-collapse: collapse;
+    border: 3px solid green;
+    width: 100%;
+    background-color: #C6F7D0; /* FONDO DE LA TABLA VERDE */
+  }
+  .green-table td, .green-table th {
+    color: green; /* Color verde */
+  }
+</style>
+</HEAD>
+<BODY>
+
+<TABLE>
+  <CAPTION style="color: red; font-size:22px; font-family:cursive;"><b>PORTADA E PROGRAMACION WEB</b></CAPTION>
+  <colgroup>
+    <col span="1" style="width: 30%;">
+    <col span="1" style="width: 40%;">
+    <col span="1" style="width: 30%;">
+  </colgroup>
+  <thead>
+    <TR>
+      <TH><img src="halo.jfif" alt="Image on the left"></TH>
+      <TH><strong></strong>
+        <p> </p>
+        <p><strong><H1>TECNOLOGICO NACIONAL DE MEXICO, CD.VALES SAN LUIS POSTOSI</H1></strong></p>
+        <p></p></TH>
+      <TH><img src="linux.jfif" alt="Image on the right"></TH>
+    </TR>
+  </thead>
+  <tbody>
+    <TR>
+      <TD colspan="3" style="text-align: center;"></TD>
+    </TR>
+  </tbody>
+</TABLE>
+
+<!-- Add the new green table -->
+<TABLE class="green-table">
+  <CAPTION style="color: rgb(36, 214, 146); font-size:22px; font-family:cursive;"><b>DATOS EN LA TABLA</b></CAPTION>
+  <TR>
+    <TH>   <p><strong>Nombre(s) Del Alumno</strong></p>
+        <p> Ismael palacios garcia</p>
+        <p><strong>DOCENTE:</strong></p>
+        <p>Abundis Espinosa Victor Manuel</p>
+        <p>MATERIA:</p>
+        <p>PROGRAMACION WEB</p>
+    </TH>
+
+  </TR>
+</TABLE>
+
+<div class="footer" style="margin-top: 50px;">
+    <a href="https://es.wikipedia.org/wiki/Faker" target="_blank">
+        <img src="kali.png" width="130" height="130">
+    </a>
+</div>
+
+</BODY>
+</HTML>
